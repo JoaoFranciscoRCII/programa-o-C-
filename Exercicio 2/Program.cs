@@ -15,7 +15,7 @@ namespace Exercicio_2
             int quartos = 3;
             int idade = 21;
             double preco = 34.5;
-
+            
             Console.WriteLine("\nNome Completo: {0}", nome);
             Console.WriteLine("\nQuantidade de quartos na sua casa: {0}", quartos);
             Console.WriteLine("\nIdade: {0}", idade);

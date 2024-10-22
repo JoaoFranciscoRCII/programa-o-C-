@@ -10,16 +10,16 @@ namespace Ex_4
     {
         static void Main(string[] args)
         {
-            int baSe, altura, conta;
+            double baSe, altura, conta;
 
             Console.WriteLine("Insira a base:");
-            baSe = Convert.ToInt32(Console.ReadLine());
+            baSe = double.Parse(Console.ReadLine());
             Console.WriteLine("\nInsira a Altura:");
-            altura = Convert.ToInt32(Console.ReadLine());
+            altura = double.Parse(Console.ReadLine());
 
             conta = (baSe * altura) / 2;
 
-            Console.WriteLine("\nO resultado e: {0} ", conta, baSe, altura);
+            Console.WriteLine("\nO resultado e: {0} ", Math.Round(conta), baSe, altura);
 
             Console.ReadKey();
 
