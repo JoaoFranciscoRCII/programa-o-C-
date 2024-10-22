@@ -17,7 +17,7 @@ namespace Exercicio_2
             double preco = 34.5;
 
             Console.WriteLine("\nNome Completo: {0}", nome);
-            Console.WriteLine("\nQuantidade de quartos na sua casa:{0}", quartos);
+            Console.WriteLine("\nQuantidade de quartos na sua casa: {0}", quartos);
             Console.WriteLine("\nIdade: {0}", idade);
             Console.WriteLine("\nPreco de um produto: {0}", preco);
 
